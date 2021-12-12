@@ -1,5 +1,5 @@
 Installation
 ------------
-.. code:: console
-
-   $ pip install https://github.com/Aetopia/ffprogress/archive/master.zip
+```
+pip install https://github.com/Aetopia/ffprogress/archive/master.zip
+```
