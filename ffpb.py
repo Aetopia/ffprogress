@@ -45,7 +45,6 @@ from tqdm import tqdm
 
 
 class ProgressNotifier(object):
-
     _DURATION_RX = re.compile(b"Duration: (\d{2}):(\d{2}):(\d{2})\.\d{2}")
     _PROGRESS_RX = re.compile(b"time=(\d{2}):(\d{2}):(\d{2})\.\d{2}")
     _SOURCE_RX = re.compile(b"from '(.*)':")
@@ -141,7 +140,7 @@ class ProgressNotifier(object):
                     dynamic_ncols=True,
                     unit=unit,
                     ncols=0,
-                    ascii=os.name=="nt",  # windows cmd has problems with unicode
+                    ascii=" ████",  # windows cmd has problems with unicode
                 )
 
             self.pbar.update(current - self.pbar.n)
