@@ -1,4 +1,4 @@
-``ffpb`` aka ``ffprogress`` |stars|
+``ffprogress`` |stars|
 ================
 
 .. |stars| image:: https://img.shields.io/github/stars/althonos/ffpb.svg?style=social&maxAge=3600&label=Star
@@ -60,7 +60,7 @@ Using as a library
 
 .. code:: python
 
-    ffpb.main(argv=None, stream=sys.stderr, encoding=None, tqdm=tqdm):
+    ffprogress.main(argv=None, stream=sys.stderr, encoding=None, tqdm=tqdm):
 
 
 argv
@@ -79,20 +79,6 @@ tqdm
 
 Installation
 ------------
-
-Install from PyPI:
-
 .. code:: console
 
-    $ pip install --user ffpb
-
-
-Alternatively, download a development version from the GitHub ``master`` branch:
-
-.. code:: console
-
-   $ pip install https://github.com/althonos/ffpb/archive/master.zip
-
-Or if you use an Arch-based distro, `download from the AUR`__
-
-.. __: https://aur.archlinux.org/packages/ffpb/
+   $ pip install https://github.com/Aetopia/ffprogress/archive/master.zip
