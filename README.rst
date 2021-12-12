@@ -1,4 +1,4 @@
-``ffpb`` |stars|
+``ffpb`` aka ``ffprogress`` |stars|
 ================
 
 .. |stars| image:: https://img.shields.io/github/stars/althonos/ffpb.svg?style=social&maxAge=3600&label=Star
